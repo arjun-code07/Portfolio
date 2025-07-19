@@ -127,7 +127,6 @@
        <li><a href="#skills">SKILLS</a></li>
       <li><a href="#projects">PROJECTS</a></li>
       <li><a href="#contact">CONTACT</a></li>
-      <li><a href="#blog">BLOG</a></li>
     </ul>
     <button class="sm:hidden text-2xl text-indigo-500 font-mono">☰</button>
   </nav>
@@ -414,33 +413,19 @@
       </div>
     </div>
   </section>
-
-  <!-- Blog Section -->
-  <section id="blog" class="py-12 bg-gray-900 text-white">
-    <div class="max-w-6xl mx-auto px-6">
-      <h2 class="text-4xl font-bold text-indigo-500 uppercase text-center mb-6">BLOG</h2>
-      <div class="space-y-6">
-       
-      </div>
-    </div>
-  </section>
     
   <!-- Contact Section -->
 <section id="contact" class="py-12 text-white">
   <div class="max-w-4xl mx-auto px-6">
     <h2 class="text-4xl font-bold text-indigo-500 uppercase text-center mb-6">CONTACT</h2>
-<form action="https://formspree.io/f/xzzvzlyz"
-  method="POST">
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <button type="submit">Send</button>
-</form>
+<form action="https://formspree.io/f/xzzvzlyz" method="POST" class="grid gap-4">
+       <input type="text" placeholder="Your Name" class="p-3 rounded bg-gray-800 border border-gray-600 text-white">
+      <input type="email" name="email" placeholder="Your Email" class="p-3 rounded bg-gray-800 border border-gray-600 text-white" required>
+      <textarea name="message" placeholder="Your Message" rows="5" class="p-3 rounded bg-gray-800 border border-gray-600 text-white" required></textarea>
+      <button type="submit" class="bg-indigo-500 hover:bg-indigo-600 text-white py-2 px-4 rounded">
+        Send Message
+      </button>
+    </form>
   </div>
 </section>
 
